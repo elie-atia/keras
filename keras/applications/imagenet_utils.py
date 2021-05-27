@@ -293,7 +293,7 @@ def _preprocess_symbolic_input(x, data_format, mode):
   return x
 
 
-def obtain_input_shape(input_shape,
+def _obtain_input_shape(input_shape,
                        default_size,
                        min_size,
                        data_format,
